@@ -7,14 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC3663452188FF3F0045362A /* SeleccionDeCategoriasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3663442188FF3F0045362A /* SeleccionDeCategoriasViewController.swift */; };
+		AC3663472188FF8F0045362A /* SeleccionDeAreasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3663462188FF8F0045362A /* SeleccionDeAreasViewController.swift */; };
+		AC3663492188FFA10045362A /* RegistroDelUsuarioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3663482188FFA10045362A /* RegistroDelUsuarioViewController.swift */; };
+		AC36634B2188FFC60045362A /* EventosDelUsuarioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC36634A2188FFC60045362A /* EventosDelUsuarioViewController.swift */; };
+		AC36634D2188FFD80045362A /* EventoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC36634C2188FFD80045362A /* EventoViewController.swift */; };
+		AC36634F2188FFEE0045362A /* MapaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC36634E2188FFEE0045362A /* MapaViewController.swift */; };
 		AC3A346721810C0600366895 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3A346621810C0600366895 /* AppDelegate.swift */; };
 		AC3A346921810C0600366895 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3A346821810C0600366895 /* ViewController.swift */; };
 		AC3A346C21810C0600366895 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC3A346A21810C0600366895 /* Main.storyboard */; };
 		AC3A346E21810C0700366895 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC3A346D21810C0700366895 /* Assets.xcassets */; };
 		AC3A347121810C0700366895 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC3A346F21810C0700366895 /* LaunchScreen.storyboard */; };
+		FA03A58D219B3FEB00E4CAA7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FA03A58C219B3FEB00E4CAA7 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AC3663442188FF3F0045362A /* SeleccionDeCategoriasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeleccionDeCategoriasViewController.swift; sourceTree = "<group>"; };
+		AC3663462188FF8F0045362A /* SeleccionDeAreasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeleccionDeAreasViewController.swift; sourceTree = "<group>"; };
+		AC3663482188FFA10045362A /* RegistroDelUsuarioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistroDelUsuarioViewController.swift; sourceTree = "<group>"; };
+		AC36634A2188FFC60045362A /* EventosDelUsuarioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventosDelUsuarioViewController.swift; sourceTree = "<group>"; };
+		AC36634C2188FFD80045362A /* EventoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventoViewController.swift; sourceTree = "<group>"; };
+		AC36634E2188FFEE0045362A /* MapaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapaViewController.swift; sourceTree = "<group>"; };
 		AC3A346321810C0600366895 /* TheEventAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheEventAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC3A346621810C0600366895 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC3A346821810C0600366895 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +35,7 @@
 		AC3A346D21810C0700366895 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC3A347021810C0700366895 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC3A347221810C0700366895 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA03A58C219B3FEB00E4CAA7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +73,14 @@
 				AC3A346A21810C0600366895 /* Main.storyboard */,
 				AC3A346D21810C0700366895 /* Assets.xcassets */,
 				AC3A346F21810C0700366895 /* LaunchScreen.storyboard */,
+				FA03A58C219B3FEB00E4CAA7 /* GoogleService-Info.plist */,
 				AC3A347221810C0700366895 /* Info.plist */,
+				AC3663442188FF3F0045362A /* SeleccionDeCategoriasViewController.swift */,
+				AC3663462188FF8F0045362A /* SeleccionDeAreasViewController.swift */,
+				AC3663482188FFA10045362A /* RegistroDelUsuarioViewController.swift */,
+				AC36634A2188FFC60045362A /* EventosDelUsuarioViewController.swift */,
+				AC36634C2188FFD80045362A /* EventoViewController.swift */,
+				AC36634E2188FFEE0045362A /* MapaViewController.swift */,
 			);
 			path = TheEventAPP;
 			sourceTree = "<group>";
@@ -123,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC3A347121810C0700366895 /* LaunchScreen.storyboard in Resources */,
+				FA03A58D219B3FEB00E4CAA7 /* GoogleService-Info.plist in Resources */,
 				AC3A346E21810C0700366895 /* Assets.xcassets in Resources */,
 				AC3A346C21810C0600366895 /* Main.storyboard in Resources */,
 			);
@@ -135,7 +157,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC3663472188FF8F0045362A /* SeleccionDeAreasViewController.swift in Sources */,
+				AC36634F2188FFEE0045362A /* MapaViewController.swift in Sources */,
+				AC3663452188FF3F0045362A /* SeleccionDeCategoriasViewController.swift in Sources */,
 				AC3A346921810C0600366895 /* ViewController.swift in Sources */,
+				AC36634D2188FFD80045362A /* EventoViewController.swift in Sources */,
+				AC3663492188FFA10045362A /* RegistroDelUsuarioViewController.swift in Sources */,
+				AC36634B2188FFC60045362A /* EventosDelUsuarioViewController.swift in Sources */,
 				AC3A346721810C0600366895 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
